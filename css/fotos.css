@@ -34,7 +34,7 @@ ul#album-fotos li:hover span {
     opacity: 1;
 }
 ul#album-fotos li#foto01 {
-    background: url('../imagens/galeria-01.jpg'); 
+    background: url('../imagens/galeria-06.jpg'); 
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;  
@@ -44,7 +44,7 @@ ul#album-fotos li#foto01:hover {
     background-size: 200px 200px; 
 }
 ul#album-fotos li#foto02 {
-    background: url('../imagens/galeria-02.jpg');
+    background: url('../imagens/galeria-01.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;  
@@ -54,7 +54,7 @@ ul#album-fotos li#foto02:hover {
     background-size: 200px 200px; 
 }
 ul#album-fotos li#foto03 {
-    background: url('../imagens/galeria-03.jpg');
+    background: url('../imagens/galeria-04.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;  
@@ -64,7 +64,7 @@ ul#album-fotos li#foto03:hover {
     background-size: 200px 200px; 
 }
 ul#album-fotos li#foto04 {
-    background: url('../imagens/galeria-04.jpg');
+    background: url('../imagens/galeria-02.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;  
@@ -84,7 +84,7 @@ ul#album-fotos li#foto05:hover {
     background-size: 200px 200px; 
 }
 ul#album-fotos li#foto06 {
-    background: url('../imagens/galeria-06.jpg');
+    background: url('../imagens/galeria-03.jpg');
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: #ffffff;  
