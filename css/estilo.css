@@ -176,7 +176,7 @@ table#tabelaspec{
 
 }
 table#tabelaspec td {
-    border: 3px solid #606060;
+    border: 1px solid #606060;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
