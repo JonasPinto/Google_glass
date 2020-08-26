@@ -171,8 +171,8 @@ article#noticia-principal p {
 table#tabelaspec{
     border: 1px solid #606060;
     border-spacing: 0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 10px;
 
 }
 table#tabelaspec td {
