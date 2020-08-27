@@ -43,7 +43,6 @@ header#cabecalho {
 header#cabecalho figure {
     margin-top: 30px;
 }
-
 figure.foto-legenda {
     position: relative;
     border: 4px solid white;
@@ -79,9 +78,6 @@ figure.foto-legenda figcaption h1 {
     margin: 20px;
 
 }
-
-/* Formatação do menu de navegação */
-
 nav#menu {
     display: block;
 }
@@ -121,6 +117,10 @@ section#corpo {
     float: left;
     border-right: 1px solid #606060 ;
     padding: 10px;
+}
+section#corpo-full {
+    margin: 1.5%;
+    margin-top: 0.8%;
 }
 section#corpo video {
     width: 720px;

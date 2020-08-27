@@ -34,6 +34,7 @@
         <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="fotos.html" target="_self">Fotos</a></li>
         <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="multimidia.html" target="_self">Multimídia</a></li>
         <li><a href="fale-conosco.html" target="_self">Fale conosco</a></li>
+        <li onmouseover="mudaFoto('imagens/compra.png')" onmouseout="mudaFoto('imagens/contato.png')"><a href="comprar.html" target="_self">Comprar</a></li>
   </ul>
 </nav>
     </header>
@@ -44,97 +45,32 @@
         <h3 class="sup">Glass > Fale conosco</h3>
         <h1 class="pri">Formulario de Contato</h1>
         <h3 class="sub">Por Jonas da Silva Pinto</h3>
-        <h3 class="dir">Atualizado em 20/agosto/2020</h3>
+        <h3 class="dir">Atualizado em 26/agosto/2020</h3>
         </hgroup>
         </article>
     </section>
 <form method="POST" id="fcontato" action="dados-formulario.txt" oninput="cauc_total();">
+
     <fieldset id="usuario">
-        <legend>Identificação do Usuário</legend>
+        <legend>Cadastro do Usuário</legend>
             <p><label for="cnome">Nome:</label><input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome completo"/></p>
-            <p><label for="csenha">Senha:</label><input type="password" name="tsenha" id="csenha" size="8" maxlength="8" placeholder="8 dígitos"/></p>
-            <p><label for="cmail">Email:</label><input type="email" name="tmail" id="cmail" size="20" maxlength="40"/></p>
+            <p><label for="csenha">CPF:</label><input type="password" name="tsenha" id="csenha" size="8" maxlength="11" placeholder="11 dígitos"/></p>
+            <p><label for="cmail">Email:</label><input type="email" name="tmail" id="cmail" size="30" maxlength="40"/></p>
+
             <fieldset id="sexo"><legend>Sexo</legend>
                 <input type="radio" name="tsexo" id="cmasc"/><label for="cmasc" >Masculino</label><br>
                 <input type="radio" name="tsexo" id="cfem"/><label for="cfem">Feminino</label>
             </fieldset>
+
             <p><label for="cdate">Data de Nascimento:</label><input type="date" name="tdate" id="cdate"></p>
-    </fieldset>
-
-    <fieldset id="endereco">
-        <legend>Endereço do Usuário</legend>
-            <p><label for="crua">Logradouro:</label><input type="text" name="trua" id="crua" size="13" maxlength="80" placeholder="Rua, Av ..."/></p>
-            <p><label for="cnum">Número:</label><input type="number" name="tnum" id="cnum" min="0" max="99999"/></p>
-
-            <p><label for="cest">Estado:</label><select name="test" id="cest">
-                <optgroup label="Região Sudeste">
-                    <option>Minas Gerais</option>
-                    <option>Espirito santo</option>
-                    <option>São Paulo</option>
-                    <option>Rio de Janeiro</option>
-                </optgroup>
-
-                <optgroup label="Região Centro-Oeste">
-                    <option>Mato Grosso</option>
-                    <option>Mato Grosso do Sul</option>
-                    <option>Goiás</option>
-                    <option selected>Distrito Federal</option>
-                </optgroup>
-
-                <optgroup label="Região Nordeste">
-                    <option>Bahia</option>
-                    <option>Piauí</option>
-                    <option>Maranhão</option>
-                    <option>Ceará</option>
-                    <option>Sergipe</option>
-                    <option>Alagoas</option>
-                    <option>Pernambuco</option>
-                    <option>Paraíba</option>
-                    <option>Rio Grande do Norte</option>
-                </optgroup>
-
-                <optgroup label="Região Norte">
-                    <option>Acre</option>
-                    <option>Amapá</option>
-                    <option>Amazonas</option>
-                    <option>Pará</option>
-                    <option>Tocantins</option>
-                    <option>Rondônia</option>
-                    <option>Roraima</option>
-                </optgroup>
-
-                <optgroup label="Região Sul">
-                    <option>Paraná</option>
-                    <option>Santa Catarina</option>
-                    <option>Rio Grande do Sul</option>
-                </optgroup>
-            </select>   
-            </p>
-
-            <p><label for="ccid">Cidade:</label>
-                <input type="text" name="tcid" id="ccid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades"/></p>
-           <datalist id="cidades">
-               <option value="São Paulo"></option>
-               <option value="Campinas"></option>   
-               <option value="Ribeirão Preto"></option>   
-               <option value="São José dos Campos"></option>   
-
-           </datalist> 
     </fieldset>
 
     <fieldset id="mensagem">
         <legend>Mensagem do Usuário</legend>
-            <p><label for="curg">Grau de Urgência: </label>Min<input type="range" name="tur" id="cur" min="0" max="10" step="2"/>Max</p>
+            <p><label for="curg">Gostei: </label>Pouco<input type="range" name="tur" id="cur" min="0" max="10" step="1"/>Muito</p>
             <p><label for="cmsg">Mensagem:</label><textarea name="tmsg" id="cmsg" cols="35" rows="5" placeholder="Deixe aqui sua Mensagem" ></textarea></p>
     </fieldset>
 
-    <fieldset id="pedido">
-        <legend>Quero um Google Glass</legend>
-            <p><input type="checkbox" name="tped" id="cped" checked/><label for="cped">Gostaria de adquirir um Google Glass quando disponível</label></p>
-            <p><label for="ccor">Cor:</label><input type="color" name="tcor" id="ccor" value="#00d9ff"/></p>
-            <p><label for="cqtd">Quantidade:</label><input type="number" name="tqtd" id="cqtd" min="0" max="5" value="0"/></p>
-            <p><label for="ctot">Preço Total: US$</label><input type="text" name="ttot" id="ctot" placeholder="Total a Pagar" readonly/></p>
-    </fieldset>
 <input type="image" name="tenviar" src="imagens/botao-enviar.png"/>
 </form>
 
