@@ -86,7 +86,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -15px;
-    left: 333px;
+    left: 25%;
 }
 nav#menu li{
     display: inline-block;
