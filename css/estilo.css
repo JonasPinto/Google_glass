@@ -44,10 +44,17 @@ header#cabecalho {
 header#cabecalho figure {
     margin-top: 35px;
 }
+header#cabecalho img#logo {
+    position: absolute;
+    left: 10%;
+    top: 12%;    
+}
 figure.foto-legenda {
     position: relative;
-    border: 4px solid white;
-    box-shadow: 2px 1px 4px rgb(8, 8, 8);        
+    width: 97%;
+    right: 4%;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 2px 1px 4px rgb(0, 0, 0);        
 }
 
 figure.foto-legenda img {
@@ -62,7 +69,6 @@ figure.foto-legenda figcaption {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
-    padding: 10px;
     box-sizing: border-box;
     transition: opacity 1s;
 }
@@ -72,12 +78,10 @@ figure.foto-legenda:hover figcaption {
 }
 figure.foto-legenda figcaption h1 {
     position: relative;
+    left: 45%;
     font-family: 'fontelogo';
     font-size: 30px;
-    padding-left: 200px;
     color: rgba(255, 255, 255, 0.589);
-    margin: 20px;
-
 }
 nav#menu {
     display: block;
@@ -135,7 +139,7 @@ section#corpo video {
 .sub {
     padding: 5px;
     font-family: 'fontelogo';
-    color: #cecece;
+    color: #a0a0a0;
     margin-top: -10px;
     font-size: 15px;  
 }
@@ -144,23 +148,24 @@ section#corpo video {
     padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-    color: #cecece;
+    color: #a0a0a0;
 }
 .dir {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
-    color: #cecece;
+    color: #a0a0a0;
     text-align: right;
     padding: 5px 10px 5px 10px;
     margin-bottom: 0px;
 }
 article#noticia-principal h2 {
     font-size: 20px;
-    color: #606060;
-    background-color: #dddddd;
+    color: #535353;
+    background-color: #d3d3d3;
     padding: 5px 0px 5px 10px;
     margin: 5px 10px 10px 10px;
 }
+
 article#noticia-principal p {
     text-align: justify;
     text-indent: 35px;
@@ -201,13 +206,13 @@ table#tabelaspec caption span {
     margin-top: 10px;
 }
 aside#lateral {
-    padding: 20px;
-    width: 30%;
+    padding: 3%;
+    width: 32%;
     float: right;
-    background-color: #e2e2e2;
+    background-color: #e6e6e6;
     box-shadow: 2px 2px 1px rgba(0,0,0,.5) ;
 }
-aside#lateral video {
+aside#lateral iframe {
     width: 100%;
     box-shadow: 1px 1px 2px rgba(0,0,0,.5);
 }
@@ -219,9 +224,9 @@ aside#lateral h1 {
 }
 aside#lateral h2 {
     margin-bottom: 0px;
-    background-color: #979797;
+    background-color: #949494;
     font-size: 20px;
-    color: #ffffff;
+    color: #535353;
     padding: 5px 0px 5px 10px;
 }
 aside#lateral p {
