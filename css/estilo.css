@@ -34,8 +34,8 @@ header#cabecalho h1 {
 } 
 header#cabecalho img#icone {
     position: absolute;
-    right: 20%;
-    top: 10%;    
+    right: 12%;
+    top: 11%;    
 }
 header#cabecalho {
     height: 172px;
