@@ -9,9 +9,10 @@ body {
     font-weight: 450;
     background-color: #cecece;
     color: rgba(0, 0, 0, 0.74);
+    padding: 1%;
 }
 a {
-   color: rgb(84, 66, 182); 
+   color: rgb(173, 2, 252); 
    text-decoration: none;
 }
 a:hover{
@@ -22,14 +23,6 @@ div#interface {
     height: auto;
     background-color: #ffffff;
 }
-
-header#cabecalho h1 {
-    font-family: 'fontelogo';
-    font-size: 50px;
-    color: rgb(136, 136, 136);
-    padding: 10px 0px 10px 500px;
-
-} 
 header#cabecalho img#icone {
     position: absolute;
     right: 12%;
@@ -39,13 +32,10 @@ header#cabecalho {
     height: 172px;
     background-color: #000000;
 }
-header#cabecalho figure {
-    margin-top: 3%;
-}
 header#cabecalho img#logo {
     position: absolute;
     left: 10%;
-    top: 12%;    
+    top: 12%; 
 }
 figure.foto-legenda {
     position: relative;
@@ -72,14 +62,12 @@ figure.foto-legenda figcaption {
 }
 figure.foto-legenda:hover figcaption {
     opacity: 1;
-
-}
-figure.foto-legenda figcaption h1 {
-    position: relative;
-    left: 45%;
+    display: block;
+    position: absolute;
     font-family: 'fontelogo';
-    font-size: 200%;
+    font-size: 150%;
     color: rgba(255, 255, 255, 0.589);
+    text-align: right;
 }
 nav#menu {
     display: block;
@@ -88,13 +76,13 @@ nav#menu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -15px;
-    right: 2.2%;
+    bottom: 93.1%;
+    right: 1.55%;
 }
 nav#menu li{
-    display: inline-block;
+    display: inline-block ;
     background-color: #cecece;
-    padding: 7px;
+    padding: 8px;
     transition: background-color 1s;
 }
 nav#menu li:hover {
@@ -123,7 +111,7 @@ section#corpo-full {
     margin-top: 0.8%;
 }
 section#corpo video {
-    width: 780px;
+    width: 97%;
     margin: 10px 0px 0px 10px;    
 }
 
@@ -193,15 +181,9 @@ table#tabelaspec td.cd {
 }
 table#tabelaspec caption {
     color: #888888;
+    padding: 3%;
     font-size: 13;
     font-weight: bolder;
-}
-table#tabelaspec caption span {
-    display: block;
-    text-align: right;
-    color: #000000;
-    font-size: 10px;
-    margin-top: 10px;
 }
 aside#lateral {
     padding: 3%;
@@ -221,9 +203,9 @@ aside#lateral h1 {
 }
 aside#lateral h2 {
     margin-bottom: 0px;
-    background-color: #949494;
+    background-color: #c2c2c2;
     font-size: 20px;
-    color: #535353;
+    color: #4e4e4e;
     padding: 5px 0px 5px 10px;
 }
 aside#lateral p {
@@ -235,6 +217,13 @@ footer#rodape {
     border-top: 1px solid #606060;
     height: 70px;
     background-color: rgb(0, 0, 0);
+}
+footer#rodape a {
+    color: rgb(1, 248, 34);
+    text-decoration: none;
+}
+footer#rodape a:hover {
+    text-decoration: underline;
 }
 footer#rodape p {
     text-align: center;
