@@ -1,2 +1,1 @@
-# Google_glass
-Veja este site muito legal onde coloquei em pratica o aprendizado das tecnologias HTML, CSS e Java script. 
+![Link do site](https://www.google.com/imgres?imgurl=https%3A%2F%2Fs2.glbimg.com%2FHyOnSlJ-NSOrSOzfLvSb7oL9ZBw%3D%2F0x0%3A620x410%2F984x0%2Fsmart%2Ffilters%3Astrip_icc()%2Fi.s3.glbimg.com%2Fv1%2FAUTH_08fbf48bc0524877943fe86e43087e7a%2Finternal_photos%2Fbs%2F2021%2Fc%2Fo%2FtvlfgkTW6BwFups5JlJQ%2F2013-07-17-glass2.jpg&imgrefurl=https%3A%2F%2Fwww.techtudo.com.br%2Fnoticias%2F2013%2F07%2Ffalha-no-google-glass-liberava-controle-total-dos-oculos-hackers.ghtml&tbnid=rZiChH9vjLTdxM&vet=12ahUKEwjMhMefndj3AhXyOLkGHZu_AGUQMygVegUIARDoAQ..i&docid=pVjH4ym-bN8m2M&w=984&h=651&q=google%20glass&ved=2ahUKEwjMhMefndj3AhXyOLkGHZu_AGUQMygVegUIARDoAQ)
