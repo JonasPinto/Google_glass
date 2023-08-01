@@ -57,6 +57,10 @@ figure.foto-legenda figcaption {
     background-color: rgba(0, 0, 0, 0.4);
     width: 100%;
     height: 100%;
+    text-align: right;
+    font-size: 150%;
+    font-family: 'fontelogo';
+    color: rgba(255, 255, 255, 0.589);
     box-sizing: border-box;
     transition: opacity 1s;
 }
@@ -66,8 +70,8 @@ figure.foto-legenda:hover figcaption {
     position: absolute;
     font-family: 'fontelogo';
     font-size: 150%;
-    color: rgba(255, 255, 255, 0.589);
     text-align: right;
+    color: rgba(255, 255, 255, 0.589);
 }
 nav#menu {
     display: block;
