@@ -3,6 +3,6 @@ function mudaFoto (foto){
 }
 
 function atualiza () {
-    atualizacao = 'Atualizado em 30/05/2022'
+    atualizacao = 'Atualizado em 21/04/2025'
     console.log(atualizacao)
 }
